@@ -62,6 +62,7 @@ public abstract class OpenmrsSearchable implements Searchable, Serializable {
      *
      * @return the hash code of the object.
      */
+    @Override
     public int hashCode() {
         if (getUuid() == null)
             return super.hashCode();
@@ -76,6 +77,7 @@ public abstract class OpenmrsSearchable implements Searchable, Serializable {
      * argument; {@code false} otherwise.
      * @see #hashCode()
      */
+    @Override
     public boolean equals(Object obj) {
         if (this == obj)
             return true;

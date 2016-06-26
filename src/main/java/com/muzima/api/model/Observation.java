@@ -156,7 +156,7 @@ public class Observation extends OpenmrsSearchable {
     }
 }
 /*
- * This ia additional file to create a UI funtionality to inform the user about.
+ * This is an additional file to create a UI funtionality to inform the user about.
  * any modifications or commit status of the data inview
  * edited date will display EDITED, save data will show COMMITTED 
  * This code is not complete, i am still working on it
